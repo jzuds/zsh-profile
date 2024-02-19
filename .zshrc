@@ -1,6 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="eastwood"
 
+source $ZSH/oh-my-zsh.sh
+
 plugins=(
   git
   sudo
@@ -14,5 +16,5 @@ function ssh() {
   /usr/bin/ssh $*
 }
 
-alias cdp='cd /mnt/c/projects'
+alias cdp='cd /home/zuds/projects'
 alias ls='ls -la'
