@@ -16,3 +16,8 @@ this is for fonts on windows, run the install.ps1 script in the root folder of t
 ```
 git clone https://github.com/powerline/fonts.git
 ```
+
+autosuggestions
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
